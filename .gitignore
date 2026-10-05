@@ -13,3 +13,6 @@ __pycache__/
 # Raw data files (documented in README instead of stored in Git)
 data/raw/*
 !data/raw/.gitkeep
+
+# Local database (rebuilt from the CSV)
+data/processed/*.db
